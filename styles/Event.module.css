@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+
+.herobanner {
+  background-image: url("../public/img/event/hero.png");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.FaDayContainer {
+  background-image: url("../public/img/event/dad.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 20px;
+}
+.FaDayContainer > p:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  color: #f9f9f9;
+  position: absolute;
+  bottom: 100px;
+  letter-spacing: 1.1px;
+  font-size: small;
+}
+.FaDayContainer > p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  color: #f9f9f9;
+  position: absolute;
+  bottom: 50px;
+  letter-spacing: 1.1px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.FaDayContainer > div {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #f9f9f9;
+  position: absolute;
+  bottom: 40px;
+  letter-spacing: 0.89px;
+  font-size: 1em;
+}
+.container {
+  height: auto;
+  padding-bottom: 30px;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+.cardContainer {
+  background-color: #f9f9f9;
+  height: auto;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  object-fit: contain;
+}
+.cardContainer > p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 2px 0px;
+  font-weight: 500;
+  color: rgb(137, 35, 98);
+}
+.cardContainer > p:nth-child(3) {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 2px 0px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.cardWrapper {
+  width: 100%;
+}
+  
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }

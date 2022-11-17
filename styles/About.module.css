@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400;1,700&family=Poppins:wght@300&display=swap");
+
+.hero {
+  background-image: url("../public/img/about/about1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+.hero > p:nth-child(1) {
+  padding-top: 10%;
+}
+.Aheader {
+  font-family: "Poppins", sans-serif;
+}
+.missionStatement > p:nth-child(1) {
+  font-weight: bold;
+}
+.CBg {
+  background-image: url("../public/img/about/about2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  padding-top: 30px;
+  position: relative;
+}
+.whyUsContainer {
+  height: auto;
+  position: relative;
+}
+.whyUsContainerDiv {
+  position: absolute;
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  transform: translate(50%, -50%);
+  border-radius: 20px;
+}
+.staffContainer {
+  background-color: #f9f9f9;
+  height: auto;
+  padding-bottom: 30px;
+}
+.staffCard {
+  margin: 0 auto;
+  height: 50vh;
+  width: 66%;
+  background-color: #fff;
+  box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  transition: all 0.5s ease-in;
+}
+.staffCard > p:nth-child(2) {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.staffCard:hover {
+  background-color: #b0acac;
+  transform: scale(1.02);
+  color: #fff;
+}
+.buttonShowMore {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #f9f9f9;
+  width: 20%;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all .5s ease-in-out;
+}
+.buttonCollapse {
+  font-family: 'Poppins', sans-serif;
+  background-color: brown;
+  color: #f9f9f9;
+  width: 20%;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
